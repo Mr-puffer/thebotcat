@@ -13,26 +13,47 @@ font-size: 16px; text-align: center;
 
   height: 50px;
   width: 100px;
-  background-color: #fff;
+  background-color: #fff;How TO - Vertical Men
+Learn how to create a vertical menu with CSS.
+
+Vertical Menu
+
+How To Create a Vertical Button Group
+Step 1) Add HTML:
+Exam  <a href="#" class="active">Home</a>
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
 }
-   .button {
-    display: block;
-    width: 115px;
-    height: 25px;
-    background: #4E9CAF;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-} 
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
 </style>
 <body>
 </head>
-  <div class="button">
-  <a href="https://discord.com/api/oauth2/authorize?client_id=682719630967439378&permissions=0&scope=bot">Invite</a>
-    </div>
+  <div class="vertical-menu">
+  <a href="https://thebotcat.tk" class="active">Home</a>
+  <a href="https://discord.com/api/oauth2/authorize?client_id=682719630967439378&permissions=0&scope=bot0&scope=bot">Invite</a>
+     </div>
 <h1>Welcome.</h1>
 <p>Thebotcat is a discord bot made by ameyyuu</p>
   
+
+</div>
 </body>
